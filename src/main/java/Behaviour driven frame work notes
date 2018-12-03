@@ -1,0 +1,85 @@
+                  CUCUMBER--BDD framework (Behaviour  driven developement)
+                  
+                  
+                  1)defining the behaviour of the framework
+                  2)Behaviour of the test case.
+                  3)Behaviour of the use case.
+                  
+                  Behaviour =Gherkin language is used to define BDD framework.
+                  
+                  
+                  Note: On the basis of the behaviour in background we write test case.
+                  
+                  cucumber is available in the form ---JVM/RUby
+                  
+                  cucumber with JVM (java) we use. Best tool .
+                  
+                  another tool --JBehave--- available in java.
+                  
+                  BDD can use with selenium as well unitlevel testing to define testcase
+                  
+                  Why BDD is getting popularity
+                  
+                  What are advantages and disadvantages
+                  
+                  
+                  
+                  In cucumber we have three components
+                  
+   1)Feature file                 2)step defination file                                               3)TestRunner
+                                  --> we will convert feature file                                   --> In junit we use TestRunner   
+                                    corresponding into code.                                         -->To run feature.              
+                                --> we use selenium+java+annotaions(cucumber related)                -->To generate the output/report
+   --> login.feature            -->                                                                               
+   --> all Gherkin keywords 
+       is used here.
+   -->Different keywords
+      1)Given
+      2)When
+      3)Then
+      4)AS
+      5)But
+      6)* 
+      7)scenario
+      8)scenario outline
+      9)Future  
+    with the help of this keywords 
+    we will define 
+    scenario/scenario Outline for 
+    a specific Feature.              
+                  
+                  
+                  
+                  
+                  Scenario is login into the website and do login
+                  
+                  steps in automation:
+                  
+                  1)open browser.
+                  2)Launch Url.
+                  3)enter username.
+                  4)Enter password.
+                  5)click on login button.
+                   
+                   Prereqesites or precondition.
+                   
+                   1)user should be on homepage.
+                   
+              
+ ----> Multiple scenrios can be run in single funture file 
+ 1)How to parametarize
+ 2)How to acheive data driven approach
+ 3)parametarzaion things
+ 4) Different formats are avaible in runner class
+ 5) What are different tags avaibles in cucumber
+ 6)How to acheive basic pom configuration and data driven approach
+ 7)Manual tester,business analyst,manager,product manager. convert into stepdefination file
+ 8)Acceptace criteria (feature file)
+ 
+ In BDD -->Defining the behaviour of the application --> any one can contribute (Agile team) 
+ 
+                   
+                  
+                  
+                  
+                  
